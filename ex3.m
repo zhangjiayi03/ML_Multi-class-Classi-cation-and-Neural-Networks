@@ -73,7 +73,7 @@ pause;
 %% ============ Part 2b: One-vs-All Training ============
 fprintf('\nTraining One-vs-All Logistic Regression...\n')
 
-lambda = 0.1;
+lambda = 0.1;%lanbda smaller the accuracy higher, but it easier be overfitting
 [all_theta] = oneVsAll(X, y, num_labels, lambda);
 
 fprintf('Program paused. Press enter to continue.\n');
